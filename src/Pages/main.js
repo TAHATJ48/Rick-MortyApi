@@ -10,10 +10,10 @@ const Main = () => {
   return (
     <ProviderStore>
         <Routes>
-          <Route path='/' element={<Episodes/>} />
-          <Route path='/episode/:id' element={<Episode/>} />
-          <Route path='/characters' element={<Status/>} />
-          <Route path='/random' element={<Random/>} />
+          <Route path='/Rick-MortyApi/' element={<Episodes/>} />
+          <Route path='/Rick-MortyApi/episode/:id' element={<Episode/>} />
+          <Route path='/Rick-MortyApi/characters' element={<Status/>} />
+          <Route path='/Rick-MortyApi/random' element={<Random/>} />
         </Routes>
     </ProviderStore>
   )
